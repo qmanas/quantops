@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+yfinance
+duckdb
+pandas
+numpy
+pydantic
+python-dotenv
+httpx
+pytest
+scipy
+ccxt

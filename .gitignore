@@ -1,0 +1,4 @@
+*.db
+*.log
+worker_output.log
+worker_error.log
