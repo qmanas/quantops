@@ -1,5 +1,8 @@
 # 💹 QuantOps: Trading Execution & Verification
 
+> **[Architectural Pattern Extracted from Production]**
+> *Core execution and verification logic extracted from an autonomous trading infrastructure. Demonstrates the pattern used for scanning, signaling, and reconciling internal trade logs against external market truth. The proprietary alpha logic and universe lists have been intentionally stripped, making this a structural reference rather than a drop-in execution bot.*
+
 A Python-based backend service for automating the execution of trading strategies. This suite provides the infrastructure needed for signal verification, position tracking, and service management.
 
 - ⚙️ **Execution Hub**: A background worker (`worker.py`) that handles scanning and order placement.
