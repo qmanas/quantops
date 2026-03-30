@@ -6,28 +6,28 @@
     <string>com.user.algotrader</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/manas/.pyenv/versions/3.12.3/bin/python3</string>
+        <string>/Users/developer/.pyenv/versions/3.12.3/bin/python3</string>
         <string>-u</string>
-        <string>/Users/manas/Documents/AlphaCentuari/algo-trader/backend/worker.py</string>
+        <string>/Users/developer/projects/algo-trader/backend/worker.py</string>
     </array>
     <key>WorkingDirectory</key>
-    <string>/Users/manas/Documents/AlphaCentuari/algo-trader</string>
+    <string>/Users/developer/projects/algo-trader</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/manas/Documents/AlphaCentuari/algo-trader/worker_output.log</string>
+    <string>/Users/developer/projects/algo-trader/worker_output.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/manas/Documents/AlphaCentuari/algo-trader/worker_error.log</string>
+    <string>/Users/developer/projects/algo-trader/worker_error.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PYTHONPATH</key>
         <string>.</string>
         <key>PATH</key>
-        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/manas/.pyenv/shims</string>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/developer/.pyenv/shims</string>
         <key>HOME</key>
-        <string>/Users/manas</string>
+        <string>/Users/developer</string>
     </dict>
 </dict>
 </plist>

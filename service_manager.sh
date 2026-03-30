@@ -11,7 +11,7 @@ case "$1" in
         echo "Installing Algo-Trader service..."
         cp "$PLIST_SRC" "$PLIST_DEST"
         # Update paths in the installed plist
-        sed -i '' "s|/Users/manas/Documents/AlphaCentuari/algo-trader|$PROJECT_ROOT|g" "$PLIST_DEST"
+        sed -i '' "s|/Users/developer/projects/algo-trader|$PROJECT_ROOT|g" "$PLIST_DEST"
         launchctl load "$PLIST_DEST"
         echo "✅ Installed and Loaded."
         ;;
